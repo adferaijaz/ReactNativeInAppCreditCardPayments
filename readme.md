@@ -19,7 +19,7 @@ Code:
 
 
 # Features
-* Skeuomorphic credit-card 💳 (inspired by: [card](https://jessepollak.github.io/card/), [react-native-credit-card](https://github.com/sonnylazuardi/react-native-credit-card))
+* Skeuomorphic credit-card 💳
 * **!!NEW!!** Now you could scale the Credit Card for smaller screens
 * **!!NEW!!** Now you could use CardView as a Component. example use case: showing saved payment details, etc.
 * Lite version for smaller screens (or if skeuomorphic is not really your thing)
@@ -59,9 +59,9 @@ _onChange => form => console.log(form);
   	number: "4242 4242",
   	expiry: "06/19",
   	cvc: "300",
-  	type: "visa", // will be one of [null, "visa", "master-card", "american-express", "diners-club", "discover", "jcb", "unionpay", "maestro"]
-  	name: "Sam",
-  	postalCode: "34567",
+  	type: "visa", // will be one of [null, "rupay", "visa", "master-card", "american-express", "diners-club", "discover", "jcb", "unionpay", "maestro"]
+  	name: "ADFER",
+  	postalCode: "192101",
   },
   status: {  // will be one of ["incomplete", "invalid", and "valid"]
 	number: "incomplete",
@@ -198,7 +198,6 @@ react-native run-android
 
 # Future Improvement
 * Add unit tests
-* Create example with [react-native-awesome-card-io](https://github.com/Kerumen/react-native-awesome-card-io)
 
 # Breaking Changes from 0.2.*
 * `cardViewSize` prop are removed from `CreditCardInput`, use `cardScale` instead (because changing the size will break most of the texts)
