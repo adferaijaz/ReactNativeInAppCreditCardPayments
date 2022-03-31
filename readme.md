@@ -17,7 +17,6 @@ Code:
 <LiteCreditCardInput onChange={this._onChange} />
 ```
 
-
 # Features
 * Skeuomorphic credit-card 💳
 * **!!NEW!!** Now you could scale the Credit Card for smaller screens
